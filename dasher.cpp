@@ -185,7 +185,7 @@ int main() {
             // win game if scarfy reaches finishline
             DrawText("You WIN!", windowDimensions[0]/4, windowDimensions[1]/2, 100, WHITE);
         } else { 
-            // keep drawing textures when game is not ended
+            // keep drawing textures when   game is not ended
             
             // draw scarfy and update animation frame
             DrawTextureRec(scarfy, scarfyData.rec, scarfyData.pos, WHITE);
